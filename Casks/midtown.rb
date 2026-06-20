@@ -4,25 +4,25 @@ cask "midtown" do
 
   on_macos do
     on_arm do
-      sha256 "5a783c60224b7fea422719bf59eb2a6d33915557473e0ad2cc98b94e3ef939f2"
-      url "https://github.com/bleupen/midtown/releases/download/v#{version}/midtown_#{version}_darwin_arm64.tar.gz"
+      sha256 "922fe687756a016b77fa8d8b8a1eadd79e226b70821aac9055eabe105e98d596"
+      url "https://github.com/bleupen/midtown-dist/releases/download/v#{version}/midtown_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "192ec33d757c5e22ec00b2ee643168759bcde22531b267059d2495303b854d78"
-      url "https://github.com/bleupen/midtown/releases/download/v#{version}/midtown_#{version}_linux_amd64.tar.gz"
+      sha256 "b6784ef3b0022df63ea57905050a30b202c2f9e39e78993e30d482a4e1e523e2"
+      url "https://github.com/bleupen/midtown-dist/releases/download/v#{version}/midtown_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "473f457a998dff5abc99308180fcb30c85a920e2a17d04f615666f6d4e3421ce"
-      url "https://github.com/bleupen/midtown/releases/download/v#{version}/midtown_#{version}_linux_arm64.tar.gz"
+      sha256 "6dfa65cf4528f637f8d7a989e8a954a5af6528a2054bce788fe41e4776d1090b"
+      url "https://github.com/bleupen/midtown-dist/releases/download/v#{version}/midtown_#{version}_linux_arm64.tar.gz"
     end
   end
 
   name "midtown"
   desc "Self-hosted HTTP tunnel client"
-  homepage "https://github.com/bleupen/midtown"
+  homepage "https://github.com/bleupen/midtown-dist"
 
   livecheck do
     skip "Auto-generated on release."
